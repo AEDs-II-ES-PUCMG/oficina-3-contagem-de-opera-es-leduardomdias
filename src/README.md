@@ -1,5 +1,56 @@
-# Código do Projeto
+# Oficina 3 — Contagem de Operações (Respostas)
 
-Mantenha neste diretório todo o código fonte do projeto. 
+## Resultados coletados
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+Abaixo estão as quantidades de operações e o tempo gasto registrados pelo programa principal.
+
+### Saída bruta (CSV)
+
+```csv
+algoritmo;entrada;operacoes;tempo_ms;resultado
+codigo1;31250000;15625000;12,321;7814540
+codigo1;62500000;31250000;18,292;15624101
+codigo1;125000000;62500000;33,245;31250158
+codigo1;250000000;125000000;64,586;62490669
+codigo1;500000000;250000000;140,055;124993980
+codigo2;31250000;62500032;11,132;62500007
+codigo2;62500000;125000033;32,727;125000007
+codigo2;125000000;250000034;3,377;250000007
+codigo2;250000000;500000035;6,722;500000007
+codigo2;500000000;1000000036;13,739;1000000007
+codigo3;12500;78156247;30,739;OK
+codigo3;25000;312562497;102,201;OK
+codigo3;50000;1250124997;333,328;OK
+codigo3;100000;5000249997;1584,918;OK
+codigo3;200000;20000499997;6408,452;OK
+codigo4;3;3;0,001;2
+codigo4;6;15;0,001;8
+codigo4;12;287;0,036;144
+codigo4;24;92735;0,206;46368
+codigo4;48;9615053951;9838,562;512559680
+```
+
+### Tabela
+
+| algoritmo | entrada (n) | operacoes | tempo_ms | resultado |
+|---|---:|---:|---:|---|
+| codigo1 | 31250000 | 15625000 | 12,321 | 7814540 |
+| codigo1 | 62500000 | 31250000 | 18,292 | 15624101 |
+| codigo1 | 125000000 | 62500000 | 33,245 | 31250158 |
+| codigo1 | 250000000 | 125000000 | 64,586 | 62490669 |
+| codigo1 | 500000000 | 250000000 | 140,055 | 124993980 |
+| codigo2 | 31250000 | 62500032 | 11,132 | 62500007 |
+| codigo2 | 62500000 | 125000033 | 32,727 | 125000007 |
+| codigo2 | 125000000 | 250000034 | 3,377 | 250000007 |
+| codigo2 | 250000000 | 500000035 | 6,722 | 500000007 |
+| codigo2 | 500000000 | 1000000036 | 13,739 | 1000000007 |
+| codigo3 | 12500 | 78156247 | 30,739 | OK |
+| codigo3 | 25000 | 312562497 | 102,201 | OK |
+| codigo3 | 50000 | 1250124997 | 333,328 | OK |
+| codigo3 | 100000 | 5000249997 | 1584,918 | OK |
+| codigo3 | 200000 | 20000499997 | 6408,452 | OK |
+| codigo4 | 3 | 3 | 0,001 | 2 |
+| codigo4 | 6 | 15 | 0,001 | 8 |
+| codigo4 | 12 | 287 | 0,036 | 144 |
+| codigo4 | 24 | 92735 | 0,206 | 46368 |
+| codigo4 | 48 | 9615053951 | 9838,562 | 512559680 |
